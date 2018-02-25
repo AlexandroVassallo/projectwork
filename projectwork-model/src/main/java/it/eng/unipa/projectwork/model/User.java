@@ -18,14 +18,15 @@ public class User extends AEntity<String>{
 	
 	@Id
 	private String username;
-	
 	private String email;
+	private String chatId;
 	
 	@Temporal(TemporalType.DATE)
 	private Date timeBirth;
 	
 	@Embedded
 	private Address address;
+	
 	
 	
 	public String getOid() {
@@ -52,6 +53,11 @@ public class User extends AEntity<String>{
 	
 	public String getEmail() {
 		return email;
+	}
+	
+	public String getChatId()
+	{
+		return chatId;
 	}
 	
 	public void setEmail(String email) {

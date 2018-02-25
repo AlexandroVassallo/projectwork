@@ -117,7 +117,14 @@ tr:nth-child(even) {
 		  			<span>notifiche via email: </span>
 		  			<button ng-if="!emailChannelActive" ng-click="registerChannel('EMAIL')">registrati</button>		  
 		  			<button ng-if="emailChannelActive" ng-click="deregisterChannel('EMAIL')">annulla registrazione</button>
-		  		</div>		  	
+		  		</div>	
+		  		
+		  		<div>
+		  			<span>notifiche telegram:</span>
+		  			<button ng-if="!telegramChannelActive" ng-click="registerChannel('TELEGRAM')">registrati</button>
+		  			<button ng-if="telegramChannelActive" ng-click="deregisterChannel('TELEGRAM')">annulla registrazione</button>
+		  		</div>
+		  			  	
 		  	</td>
 		  </tr>
 		  

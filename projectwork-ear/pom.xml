@@ -68,6 +68,12 @@
 							<artifactId>projectwork-channel-email</artifactId>
 							<bundleFileName>projectwork-channel-email.jar</bundleFileName>
 						</ejbModule>
+						
+						<ejbModule>
+							<groupId>it.eng.unipa.projectwork</groupId>
+							<artifactId>projectwork-channel-telegram</artifactId>
+							<bundleFileName>projectwork-channel-telegram.jar</bundleFileName>
+						</ejbModule>
 						<webModule>
 							<groupId>it.eng.unipa.projectwork</groupId>
 							<artifactId>projectwork-ws</artifactId>
@@ -128,6 +134,12 @@
 			<groupId>it.eng.unipa.projectwork</groupId>
 			<artifactId>projectwork-channel-email</artifactId>
 			<version>${project.version}</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>it.eng.unipa.projectwork</groupId>
+			<artifactId>projectwork-channel-telegram</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 			<type>ejb</type>
 		</dependency>
 	</dependencies>

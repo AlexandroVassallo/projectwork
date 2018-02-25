@@ -20,6 +20,13 @@
 		<type>jar</type>
 		<scope>provided</scope>
 	</dependency>
+	
+	   
+	<dependency>
+    <groupId>org.telegram</groupId>
+    <artifactId>telegrambots</artifactId>
+    <version>3.6</version>
+</dependency>
 	<dependency>
 		<groupId>it.eng.unipa.projectwork</groupId>
 		<artifactId>projectwork-model</artifactId>

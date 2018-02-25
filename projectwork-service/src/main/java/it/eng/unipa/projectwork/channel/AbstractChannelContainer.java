@@ -150,6 +150,11 @@ public abstract class AbstractChannelContainer<T extends Channel> implements Cha
 	protected void afterAllSend(AuctionEvent auctionEvent){
 		
 	}
+
+	public void add(String username, String chatId) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
