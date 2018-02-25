@@ -19,7 +19,8 @@ public class User extends AEntity<String>{
 	@Id
 	private String username;
 	private String email;
-	private String chatId;
+	private String chatId; //id della chat telegram
+	
 	
 	@Temporal(TemporalType.DATE)
 	private Date timeBirth;
@@ -55,7 +56,8 @@ public class User extends AEntity<String>{
 		return email;
 	}
 	
-	public String getChatId()
+	//chatId di telegram
+	public String getChatId() 
 	{
 		return chatId;
 	}
@@ -73,3 +75,33 @@ public class User extends AEntity<String>{
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
