@@ -4,7 +4,7 @@ import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
 
-public class TestClass {
+public class BotStarter{
 	public static void main(String[] args)
 	{
 		//inizializziamo le api
@@ -21,6 +21,8 @@ public class TestClass {
 				{
 					e.printStackTrace();
 				}
+					
 	}
+	
 
 }

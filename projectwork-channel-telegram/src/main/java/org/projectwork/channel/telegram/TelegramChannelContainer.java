@@ -30,9 +30,9 @@ public class TelegramChannelContainer extends AbstractChannelContainer<TelegramC
 	public void add(String username, Long auctionOid) {
 		User user = userService.getUser(username);
 		String email = user.getEmail();
-		String chat_id=user.getChatId();
+		long chat_id=user.getChatId();
 		
-		super.add(new TelegramChannel(username, chat_id));
+		//super.add(new TelegramChannel(username, chat_id));
 		super.add(username, auctionOid);
 	}
 	

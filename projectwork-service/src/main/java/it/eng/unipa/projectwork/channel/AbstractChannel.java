@@ -4,12 +4,13 @@ public abstract class AbstractChannel implements Channel {
 	
 	private final String type;
 	private final String  username;
+
 	
 	public AbstractChannel(String type,String username) {
 		this.type = type;
 		this.username = username;
 	}
-
+	
 	@Override
 	public String getType() {
 		return type;
@@ -20,4 +21,5 @@ public abstract class AbstractChannel implements Channel {
 		return username;
 	}
 
+	
 }

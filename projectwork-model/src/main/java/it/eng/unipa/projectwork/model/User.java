@@ -19,7 +19,7 @@ public class User extends AEntity<String>{
 	@Id
 	private String username;
 	private String email;
-	private String chatId; //id della chat telegram
+	private long chatId; //id della chat telegram
 	
 	
 	@Temporal(TemporalType.DATE)
@@ -30,6 +30,13 @@ public class User extends AEntity<String>{
 	
 	
 	
+
+
+	public User() {
+		super();
+	}
+
+
 	public String getOid() {
 		return getUsername();
 	};
@@ -57,11 +64,14 @@ public class User extends AEntity<String>{
 	}
 	
 	//chatId di telegram
-	public String getChatId() 
+	public long getChatId() 
 	{
 		return chatId;
 	}
-	
+	public void setChatId(long chatId) {
+		this.chatId = chatId;
+	}
+
 	public void setEmail(String email) {
 		this.email = email;
 	}
@@ -73,6 +83,7 @@ public class User extends AEntity<String>{
 	public void setTimeBirth(Date timeBirth) {
 		this.timeBirth = timeBirth;
 	}
+
 
 }
 

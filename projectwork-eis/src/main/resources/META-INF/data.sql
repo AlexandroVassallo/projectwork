@@ -29,6 +29,12 @@ INSERT INTO security(username,password)values('lugraci','lugraci');
 INSERT INTO userx(username, address, city, postcode, email, timebirth) VALUES ('giacompa','via tommaso marcellini 5','Palermo','90135','giancarlo.compagno@eng.it','1976-09-08');
 INSERT INTO userx(username, address, city, postcode, email, timebirth) VALUES ('lugraci' ,'via tommaso marcellini 5','Palermo','90135','luigi.graci@eng.it','1982-09-08');
 
+INSERT INTO userx(username, address, city, postcode, email, timebirth, chatId) VALUES ('AlexandroVassallo','via tommaso marcellini 5','Palermo','90135','gruppo2eng@gmail.com','1976-09-08','15279014');
+INSERT INTO userx(username, address, city, postcode, email, timebirth, chatId) VALUES ('SalvoBattaglia' ,'via tommaso marcellini 5','Palermo','90135','gruppo2eng@gmail.com','1982-09-08','18128983');
+INSERT INTO userx(username, address, city, postcode, email, timebirth, chatId) VALUES ('GiuseppeMinore','via tommaso marcellini 5','Palermo','90135','gruppo2eng@gmail.com','1976-09-08','26674639');
+INSERT INTO userx(username, address, city, postcode, email, timebirth, chatId) VALUES ('FedericoAnnaloro' ,'via tommaso marcellini 5','Palermo','90135','gruppo2eng@gmail.com','1982-09-08','39341460');
+
+
 INSERT INTO supplier(username,info)values('giacompa','Info fatturazione');
 
 INSERT INTO product(oid,description)VALUES (nextval('PRODUCT_ID_SEQ'), 'Product 1');

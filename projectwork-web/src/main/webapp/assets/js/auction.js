@@ -51,6 +51,7 @@ app.controller('auctionCtrl', function($rootScope,$scope, $http, $interval,$time
 			
 			 $scope.websocketChannelActive = websocketChannelActive;
 			 $scope.emailChannelActive = emailChannelActive;
+			 $scope.telegramChannelActive = telegramChannelActive;
 		});	
 		
 	};

@@ -13,6 +13,7 @@ public class TelegramChannel extends AbstractChannel{
 		// TODO Auto-generated constructor stub
 	}
 
+	
 	@Override
 	public void sendAuctionEvent(AuctionEvent auctionEvent) {
 		// TODO Auto-generated method stub
